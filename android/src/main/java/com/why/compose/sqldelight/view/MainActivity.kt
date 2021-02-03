@@ -1,10 +1,10 @@
-package com.why.template.compose.view
+package com.why.compose.sqldelight.view
 
 import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.compose.ui.platform.setContent
-import com.why.template.compose.theme.TemplateTheme
+import com.why.compose.sqldelight.theme.TemplateTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

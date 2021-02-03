@@ -1,8 +1,7 @@
-package com.why.template.compose.theme
+package com.why.compose.sqldelight.theme
 
 import androidx.compose.ui.graphics.Color
 
-// TODO: Make your own colors
 val Red200 = Color(0xfff297a2)
 val Red300 = Color(0xffea6d7e)
 val Red700 = Color(0xffdd0d3c)

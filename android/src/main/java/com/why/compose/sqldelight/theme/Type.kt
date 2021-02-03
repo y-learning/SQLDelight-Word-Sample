@@ -1,4 +1,4 @@
-package com.why.template.compose.theme
+package com.why.compose.sqldelight.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
@@ -8,7 +8,6 @@ import androidx.compose.ui.text.font.fontFamily
 import androidx.compose.ui.unit.sp
 import com.why.template.compose.R
 
-// TODO: Replace with your own fonts in the font resource directory
 private val Montserrat = fontFamily(
     font(R.font.montserrat_regular),
     font(R.font.montserrat_medium, FontWeight.W500),
