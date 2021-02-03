@@ -74,4 +74,12 @@ object Libs {
 
         const val coroutinesTest = "$group:kotlinx-coroutines-test:$version"
     }
+
+    object SQLDelight {
+        const val version = "1.4.4"
+
+        const val id = "com.squareup.sqldelight"
+
+        const val driver = "$id:android-driver:$version"
+    }
 }

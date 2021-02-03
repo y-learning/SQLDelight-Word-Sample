@@ -8,6 +8,7 @@ buildscript {
     dependencies {
         classpath(Libs.Gradle.plugin)
         classpath(Libs.Gradle.build)
+        classpath(Plugins.SQLDelight.plugin)
     }
 }
 
@@ -24,7 +25,8 @@ allprojects {
 }
 
 subprojects {
-    apply(plugin = "org.jlleitschuh.gradle.ktlint")
+    apply(plugin = Plugins.Ktlint.id)
+    apply(plugin = Plugins.SQLDelight.id)
 
     configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> {
         debug.set(true)
