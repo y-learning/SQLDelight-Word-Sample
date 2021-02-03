@@ -26,7 +26,7 @@ allprojects {
 
 subprojects {
     apply(plugin = Plugins.Ktlint.id)
-    apply(plugin = Plugins.SQLDelight.id)
+    apply(plugin = Libs.SQLDelight.id)
 
     configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> {
         debug.set(true)
