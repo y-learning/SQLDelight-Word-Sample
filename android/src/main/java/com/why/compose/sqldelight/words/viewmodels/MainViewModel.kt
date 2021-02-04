@@ -28,7 +28,8 @@ class MainViewModel(private val wordsGateway: WordsGateway) : ViewModel() {
     }
 
     fun updateWordToSave(word: String) {
-        wordToSave = word
+        if (word.isNotBlank() && word.isNotEmpty())
+            wordToSave = word
     }
 
     fun clearAllWords() = viewModelScope.launch {
