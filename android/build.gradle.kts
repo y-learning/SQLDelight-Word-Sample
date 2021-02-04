@@ -3,6 +3,15 @@ plugins {
     kotlin("android")
 }
 
+sqldelight {
+    database("WordsDb") {
+        packageName = "com.why.compose.sqldelight.words"
+        sourceFolders = listOf("sql")
+        schemaOutputDirectory = file("src/main/sqldelight/databases")
+        dialect = "sqlite:3.25"
+    }
+}
+
 dependencies {
     implementation(Libs.AndroidX.coreKtx)
     implementation(Libs.AndroidX.appcompat)

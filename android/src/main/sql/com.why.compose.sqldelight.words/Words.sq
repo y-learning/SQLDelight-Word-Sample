@@ -1,0 +1,26 @@
+CREATE TABLE WORDS (
+  ID   INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+  WORD TEXT    NOT NULL
+);
+
+-- Init the database with random data
+INSERT INTO WORDS
+VALUES
+    ( NULL, 'Brush' ),
+    ( NULL, 'Scarcat' ),
+    ( NULL, 'Hello' ),
+    ( NULL, 'Flutter' );
+
+--
+
+insert:
+INSERT INTO WORDS(WORD)
+VALUES (?);
+
+getAlphabetizedWords:
+SELECT *
+FROM WORDS
+ORDER BY WORD ASC;
+
+deleteAllWords:
+DELETE FROM WORDS;
