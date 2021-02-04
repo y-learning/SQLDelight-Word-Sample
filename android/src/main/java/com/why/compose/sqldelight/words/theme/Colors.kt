@@ -1,4 +1,4 @@
-package com.why.compose.sqldelight.theme
+package com.why.compose.sqldelight.words.theme
 
 import androidx.compose.ui.graphics.Color
 

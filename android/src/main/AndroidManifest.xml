@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SQLDelight.Compose">
         <activity
-            android:name="com.why.compose.sqldelight.view.SplashActivity"
+            android:name="com.why.compose.sqldelight.words.view.SplashActivity"
             android:theme="@style/Theme.SQLDelight.Compose.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.why.compose.sqldelight.view.MainActivity" />
+        <activity android:name="com.why.compose.sqldelight.words.view.MainActivity" />
     </application>
 
 </manifest>

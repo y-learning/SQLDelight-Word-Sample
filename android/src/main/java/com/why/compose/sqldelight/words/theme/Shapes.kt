@@ -1,4 +1,4 @@
-package com.why.compose.sqldelight.theme
+package com.why.compose.sqldelight.words.theme
 
 // TODO: Remove the comment and make your own shapes
 // val TemplateShapes = Shapes(

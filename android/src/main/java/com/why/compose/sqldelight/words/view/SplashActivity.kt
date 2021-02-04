@@ -1,4 +1,4 @@
-package com.why.compose.sqldelight.view
+package com.why.compose.sqldelight.words.view
 
 import android.content.Intent
 import android.os.Bundle

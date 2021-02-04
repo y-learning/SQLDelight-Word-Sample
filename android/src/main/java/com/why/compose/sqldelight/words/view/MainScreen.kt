@@ -1,4 +1,4 @@
-package com.why.compose.sqldelight.view
+package com.why.compose.sqldelight.words.view
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -15,7 +15,7 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
-import com.why.compose.sqldelight.theme.TemplateTheme
+import com.why.compose.sqldelight.words.theme.TemplateTheme
 
 @Composable
 private fun formatHelloText(name: String): AnnotatedString =
