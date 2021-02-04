@@ -81,5 +81,7 @@ object Libs {
         const val id = "com.squareup.sqldelight"
 
         const val driver = "$id:android-driver:$version"
+
+        const val coroutineExt = "$id:coroutines-extensions-jvm:$version"
     }
 }

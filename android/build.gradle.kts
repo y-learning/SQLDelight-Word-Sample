@@ -25,6 +25,8 @@ dependencies {
 
     implementation(Libs.SQLDelight.driver)
 
+    implementation(Libs.SQLDelight.coroutineExt)
+
     testImplementation(Libs.Kotest.runner)
     testImplementation(Libs.Kotest.assertions)
     testImplementation(Libs.Kotest.property)
